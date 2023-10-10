@@ -17,5 +17,18 @@ public class Map2 {
         }
         return map;
     }
+    public static Map<String, Integer> wordLen_alina(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+        for(String str: strings) {
+            if(map.containsKey(str)){
+                map.put(str, str.length());
+            }
+            else {
+                map.put(str, str.length());
+            }
+        }
+        return map;
+    }
+
 
 }

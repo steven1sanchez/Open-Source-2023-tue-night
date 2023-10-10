@@ -9,5 +9,14 @@ public class Map1 {
         }
         return map;
     }
+    public static Map<String, String> topping3_alina(Map<String, String> map) {
+        if(map.get("potato") != null && !map.get("potato").equals("")){
+            map.put("fries", map.get("potato"));
+        }
+        if(map.get("salad") != null && !map.get("salad").equals("")){
+            map.put("spinach", map.get("salad"));
+        }
+        return map;
+    }
 
 }
