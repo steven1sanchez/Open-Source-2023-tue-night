@@ -10,4 +10,16 @@ public class Map1 {
         return map;
     }
 
+    public static Map<String, String> topping3_kirsten(Map<String, String> map) {
+        if(map.containsKey("potato")) {
+            String p = map.get("potato");
+            map.put("fries", p);
+        }
+        if(map.containsKey("salad")) {
+            String s = map.get("salad");
+            map.put("spinach", s);
+        }
+        return map;
+    }
+
 }
