@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8317de85-7537-4444-93e8-4a36a3897342" name="Changes" comment="" />
+    <list default="true" id="8317de85-7537-4444-93e8-4a36a3897342" name="Changes" comment="From Matsuo Bashō’s poem ‘The Old Pond’">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/HelloServlet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="upstream/main" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2WHErVWgBOk6Nl8BDW0SIoq4Vxc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -25,7 +36,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -38,7 +55,23 @@
       <option name="presentableId" value="Default" />
       <updated>1696381306193</updated>
       <workItem from="1696381307605" duration="4000" />
+      <workItem from="1696382187823" duration="3174000" />
     </task>
+    <task id="LOCAL-00001" summary="From Matsuo Bashō’s poem ‘The Old Pond’">
+      <created>1696383758468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696383758468</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="From Matsuo Bashō’s poem ‘The Old Pond’" />
+    <option name="LAST_COMMIT_MESSAGE" value="From Matsuo Bashō’s poem ‘The Old Pond’" />
   </component>
 </project>
