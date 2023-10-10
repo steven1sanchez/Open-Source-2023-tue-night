@@ -11,7 +11,7 @@ public class Map1 {
     }
     public static Map<String, String> topping3_steven(Map<String, String> map) {
         if (map.containsKey("potato")) {
-            map.put("fries", map.get("potato"));
+            map.put("fries" , map.get("potato"));
         }
         if (map.containsKey("salad")) {
             map.put("spinach", map.get("salad"));

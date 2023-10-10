@@ -24,7 +24,7 @@ public class Map2 {
             char firstChar = str.charAt(0);
             if (map.containsKey(firstChar)) {
                 int swapIndex = map.get(firstChar);
-                String temp = strings[i];
+                String temp = strings[i] ;
                 strings[i] = strings[swapIndex];
                 strings[swapIndex] = temp;
                 map.remove(firstChar);
