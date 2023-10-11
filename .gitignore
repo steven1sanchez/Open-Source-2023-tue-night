@@ -12,6 +12,7 @@ target/
 *.iml
 *.ipr
 *.xml
+src/main/java/com/java2/opensource2023tuenight/HelloServlet.java
 
 ### Eclipse ###
 .apt_generated
