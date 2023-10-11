@@ -17,5 +17,20 @@ public class Map2 {
         }
         return map;
     }
+    public Map<String, String> firstChar_Andres(String[] strings) {
+        Map<String, String> map = new HashMap<>();
+        for(String str: strings){
+            String letter = Character.toString(str.charAt(0));
+            if(!map.containsKey(letter)){
+                map.put(letter, str);
+            }
+            else{
+                String prev = map.get(letter);
+                map.put(letter, prev + str);
+            }
+        }
+        return map;
+    }
+
 
 }
