@@ -136,4 +136,27 @@ public class Map2 {
         return outStrings;
     }
 
+    public String[] firstSwap_jaredHutton(String[] strings) {
+        Map<Character, Integer> map = new HashMap<>();
+
+        for (int ix = 0; ix < strings.length; ++ix) {
+            String str = strings[ix];
+            if (str.length() > 0) {
+                char key = str.charAt(0);
+                if (map.containsKey(key)) {
+                    if (map.get(key) != -1) {
+                        int oldIx = map.get(key);
+                        strings[ix] = strings[oldIx];
+                        strings[oldIx] = str;
+                        map.put(key, -1);
+                    }
+                } else {
+                    map.put(key, ix);
+                }
+            }
+        }
+
+        return strings;
+    }
+
 }
