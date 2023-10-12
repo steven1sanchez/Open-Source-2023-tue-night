@@ -52,6 +52,11 @@ cmake-build-*/
 
 # File-based project format
 *.iws
+*.iml
+*.ipr
+*.xml
+src/main/java/com/java2/opensource2023tuenight/HelloServlet.java
+
 
 # IntelliJ
 out/
