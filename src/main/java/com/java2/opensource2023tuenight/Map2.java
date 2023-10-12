@@ -17,5 +17,13 @@ public class Map2 {
         }
         return map;
     }
+    public Map<String, Integer> wordLen_caspian(String[] strings) {
+        Map<String, Integer> stringCount = new HashMap<>();
+        for (String add : strings) {
+            int num = add.length();
+            stringCount.put(add, num);
+        }
+        return stringCount;
+    }
 
 }
