@@ -26,4 +26,21 @@ public class Map2 {
         return stringCount;
     }
 
+    public static String wordAppend_isabella(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+        String result = "";
+        for(String str: strings) {
+            if(map.containsKey(str)) {
+                map.put(str, map.get(str) + 1);
+                if(map.get(str) % 2 == 0) {
+                    result = result.concat(str);
+                }
+            } else {
+                map.put(str, 1);
+            }
+        }
+        return result;
+    }
+
+
 }
