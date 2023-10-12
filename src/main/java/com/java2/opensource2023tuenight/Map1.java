@@ -11,6 +11,17 @@ public class Map1 {
         }
         return map;
     }
+
+  public Map<String, String> mapAB3_andres(Map<String, String> map){
+        if(map.containsKey("a") && !map.containsKey("b")){
+            map.put("b", map.get("a"));
+        }
+        if(map.containsKey("b") && !map.containsKey("a")){
+            map.put("a", map.get("b"));
+        }
+        return map;
+    }
+  
     public static Map<String, String> topping3_steven(Map<String, String> map) {
         if (map.containsKey("potato")) {
             map.put("fries" , map.get("potato"));
@@ -86,12 +97,6 @@ public class Map1 {
         return map;
 
     }
-
-
-
-
-
-
 
     public Map<String, String> topping3_jaredHutton(Map<String, String> map) {
         if (map.containsKey("potato")) {
