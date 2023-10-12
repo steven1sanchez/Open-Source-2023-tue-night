@@ -18,6 +18,15 @@ public class Map2 {
         return map;
     }
 
+    public Map<String, String> pairs_jacobL(String[] strings) {
+        Map<String, String> map = new HashMap<>();
+        for (String str : strings){
+            map.put(str.substring(0, 1), str.substring(str.length()-1, str.length()));
+        }
+
+        return map;
+    }
+
     public String[] allSwap__Jonathan_Beck(String[] strings) {
         Map<String, Integer> map2 = new HashMap<String, Integer>();
         for (int i = 0; i < strings.length; i++) {
