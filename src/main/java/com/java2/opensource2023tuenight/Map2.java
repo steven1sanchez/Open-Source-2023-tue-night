@@ -17,6 +17,7 @@ public class Map2 {
         }
         return map;
     }
+
     public Map<String, Integer> wordLen_caspian(String[] strings) {
         Map<String, Integer> stringCount = new HashMap<>();
         for (String add : strings) {
@@ -25,6 +26,20 @@ public class Map2 {
         }
         return stringCount;
     }
+
+    public static Map<String, Integer> wordLen_alina(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+        for(String str: strings) {
+            if(map.containsKey(str)){
+                map.put(str, str.length());
+            }
+            else {
+                map.put(str, str.length());
+            }
+        }
+        return map;
+    }
+
 
     public static String wordAppend_isabella(String[] strings) {
         Map<String, Integer> map = new HashMap<>();
@@ -41,6 +56,7 @@ public class Map2 {
         }
         return result;
     }
+
     public static String[] allSwap_kirsten(String[] strings) {
         String[] result = new String[strings.length];
         Map<Character, Integer> map = new HashMap<>();
@@ -58,7 +74,5 @@ public class Map2 {
         }
         return result;
     }
-}
-
 
 }
