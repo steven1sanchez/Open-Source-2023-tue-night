@@ -17,6 +17,31 @@ public class Map2 {
         }
         return map;
     }
+  
+    public Map<String, Integer> wordLen_caspian(String[] strings) {
+        Map<String, Integer> stringCount = new HashMap<>();
+        for (String add : strings) {
+            int num = add.length();
+            stringCount.put(add, num);
+        }
+        return stringCount;
+    }
+
+    public static String wordAppend_isabella(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+        String result = "";
+        for(String str: strings) {
+            if(map.containsKey(str)) {
+                map.put(str, map.get(str) + 1);
+                if(map.get(str) % 2 == 0) {
+                    result = result.concat(str);
+                }
+            } else {
+                map.put(str, 1);
+            }
+        }
+        return result;
+    }
 
     public static String[] allSwap_kirsten(String[] strings) {
         String[] result = new String[strings.length];
@@ -35,4 +60,5 @@ public class Map2 {
         }
         return result;
     }
+  
 }
