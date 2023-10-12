@@ -18,6 +18,24 @@ public class Map2 {
         return map;
     }
 
+    public  static String[] allSwap_steven(String[] strings) {
+        Map<Character, Integer> map = new HashMap<>();
+        for (int i = 0; i < strings.length; i++) {
+            String str = strings[i];
+            char firstChar = str.charAt(0);
+            if (map.containsKey(firstChar)) {
+                int swapIndex = map.get(firstChar);
+                String temp = strings[i] ;
+                strings[i] = strings[swapIndex];
+                strings[swapIndex] = temp;
+                map.remove(firstChar);
+            } else {
+                map.put(firstChar, i);
+            }
+        }
+        return strings;
+    }
+
     public Map<String, Integer> wordLen_caspian(String[] strings) {
         Map<String, Integer> stringCount = new HashMap<>();
         for (String add : strings) {
@@ -75,7 +93,6 @@ public class Map2 {
         return result;
     }
 
-}
     public String[] firstSwap_nathan(String[] strings) {
         Map<String, Integer> map = new HashMap<>();
         String[] outStrings = new String[strings.length];

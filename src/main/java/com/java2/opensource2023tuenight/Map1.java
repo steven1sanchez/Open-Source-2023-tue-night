@@ -10,6 +10,15 @@ public class Map1 {
         }
         return map;
     }
+    public static Map<String, String> topping3_steven(Map<String, String> map) {
+        if (map.containsKey("potato")) {
+            map.put("fries" , map.get("potato"));
+        }
+        if (map.containsKey("salad")) {
+            map.put("spinach", map.get("salad"));
+        }
+        return map;
+    }
 
     public Map<String, String> mapAB2_caspian(Map<String, String> map) {
         if(map.containsKey("a") && map.containsKey("b")) {
