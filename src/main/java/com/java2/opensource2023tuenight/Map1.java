@@ -9,6 +9,7 @@ public class Map1 {
         }
         return map;
     }
+
     public Map<String, String> mapAB2_caspian(Map<String, String> map) {
         if(map.containsKey("a") && map.containsKey("b")) {
             if(map.get("a").equals(map.get("b"))) {
@@ -28,6 +29,7 @@ public class Map1 {
         }
         return map;
     }
+
     public static Map<String, String> topping3_kirsten(Map<String, String> map) {
         if(map.containsKey("potato")) {
             String p = map.get("potato");
@@ -36,6 +38,16 @@ public class Map1 {
         if(map.containsKey("salad")) {
             String s = map.get("salad");
             map.put("spinach", s);
+        }
+        return map;
+    }
+
+    public static Map<String, String> topping3_alina(Map<String, String> map) {
+        if(map.get("potato") != null && !map.get("potato").equals("")){
+            map.put("fries", map.get("potato"));
+        }
+        if(map.get("salad") != null && !map.get("salad").equals("")){
+            map.put("spinach", map.get("salad"));
         }
         return map;
     }
