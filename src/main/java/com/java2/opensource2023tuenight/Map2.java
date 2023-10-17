@@ -205,4 +205,16 @@ public class Map2 {
         return strings;
     }
 
+    public Map<String, Integer> word0_mads(String[] strings) {
+        Map<String, Integer> map = new HashMap<String, Integer>();
+
+        for(int i = 0; i < strings.length; i++)
+        {
+            map.put(strings[i], 0);
+        }
+
+        return map;
+    }
+
+
 }
