@@ -143,4 +143,16 @@ public class Map1 {
         return map;
     }
 
+    public static Map<String, String> topping1_mads(Map<String, String> map) {
+
+        if(map.containsKey("ice cream"))
+        {
+            map.put("ice cream", "cherry");
+        }
+
+        map.put("bread", "butter");
+
+        return map;
+    }
+
 }
