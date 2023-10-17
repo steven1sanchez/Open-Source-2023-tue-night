@@ -12,7 +12,7 @@ public class Map1 {
         return map;
     }
 
-  public Map<String, String> mapAB3_andres(Map<String, String> map){
+  public static Map<String, String> mapAB3_andres(Map<String, String> map){
         if(map.containsKey("a") && !map.containsKey("b")){
             map.put("b", map.get("a"));
         }
