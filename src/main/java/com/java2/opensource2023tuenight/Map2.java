@@ -140,7 +140,7 @@ public class Map2 {
         return result;
     }
 
-    public String[] firstSwap_nathan(String[] strings) {
+    public static String[] firstSwap_nathan(String[] strings) {
         Map<String, Integer> map = new HashMap<>();
         String[] outStrings = new String[strings.length];
         for(int i = 0; i < strings.length; i++){
