@@ -113,13 +113,15 @@ public class Map1 {
 
     }
 
-    public Map<String, String> topping3_jaredHutton(Map<String, String> map) {
+    public static Map<String, String> topping3_jaredHutton(Map<String, String> map) {
+        Map outMap = new HashMap<String, String>();
+
         if (map.containsKey("potato")) {
-            map.put("fries", map.get("potato"));
+            outMap.put("fries", map.get("potato"));
         }
 
         if (map.containsKey("salad")) {
-            map.put("spinach", map.get("salad"));
+            outMap.put("spinach", map.get("salad"));
         }
 
         return map;
