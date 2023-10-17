@@ -183,4 +183,26 @@ public class Map2 {
         return strings;
     }
 
+    public static String[] firstSwap_baylee(String[] strings) {
+        Map<String, String> map = new HashMap<>();
+        Map<String, Integer> location = new HashMap<>();
+        Map<String, Integer> count = new HashMap<>();
+        for (int i = 0; i < strings.length; i++){
+            String ch = String.valueOf(strings[i].charAt(0));
+            if (map.containsKey(ch)){
+                count.put(ch, count.get(ch) + 1);
+                if (count.get(ch) == 2){
+                    String hold = map.get(ch);
+                    strings[location.get(ch)] = strings[i];
+                    strings[i] = hold;
+                }
+            } else {
+                map.put(ch, strings[i]);
+                location.put(ch, i);
+                count.put(ch, 1);
+            }
+        }
+        return strings;
+    }
+
 }
