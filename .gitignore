@@ -41,8 +41,20 @@
  .idea/modules.xml
  .idea/*.iml
  .idea/modules
+ .idea/.gitignore
+ mvnw.cmd
+ mvnw
+ pom.xml
+ README.md
+ haikus
 *.iml
 *.ipr
+.gitignore
+LICENSE
+.mvn
+src/main/webapp
+
+
 
 # CMake
 cmake-build-*/
