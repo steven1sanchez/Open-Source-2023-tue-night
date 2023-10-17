@@ -205,6 +205,22 @@ public class Map2 {
         return strings;
     }
 
+    public static Map<String, String> firstChar_oleksiy(String[] strings) {
+        Map<String, String> map = new HashMap<>();
+        String chara;
+        for(String string : strings){
+            chara = string.substring(0, 1);
+            if(!map.containsKey(chara)){
+                map.put(chara, string);
+            }
+            else{
+                map.put(chara, map.get(chara) + string);
+            }
+        }
+
+        return map;
+    }
+          
     public static Map<String, Integer> word0_mads(String[] strings) {
         Map<String, Integer> map = new HashMap<String, Integer>();
 
@@ -215,6 +231,5 @@ public class Map2 {
 
         return map;
     }
-
 
 }
