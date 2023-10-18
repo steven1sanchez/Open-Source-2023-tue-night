@@ -17,7 +17,7 @@ public class Map2 {
         }
         return map;
     }
-    public Map<String, String> firstChar_Andres(String[] strings) {
+    public static Map<String, String> firstChar_Andres(String[] strings) {
         Map<String, String> map = new HashMap<>();
         for(String str: strings){
             String letter = Character.toString(str.charAt(0));
