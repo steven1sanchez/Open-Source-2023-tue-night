@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Baylee firstSwap Test completed">
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="merging">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_Marc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,13 +21,10 @@
       </list>
     </option>
   </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="baylee-map1-test" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="marc-map1-test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,12 +50,12 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "Caspian427-caspian-codingbat",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,7 +67,7 @@
       <recent name="com.java2.opensource2023tuenight" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
       <module name="empty-web-app" />
@@ -96,10 +94,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Map1Test_Marc.mapAB_marc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-tue-night" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java2.opensource2023tuenight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java2.opensource2023tuenight" />
+      <option name="MAIN_CLASS_NAME" value="com.java2.opensource2023tuenight.Map1Test_Marc" />
+      <option name="METHOD_NAME" value="mapAB_marc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.HelloServlet" />
+        <item itemvalue="JUnit.Map1Test_Marc.mapAB_marc" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.HelloServlet" />
       </list>
@@ -116,50 +131,15 @@
       <workItem from="1697038284109" duration="164000" />
       <workItem from="1697038450736" duration="616000" />
       <workItem from="1697039303362" duration="962000" />
-      <workItem from="1697575047552" duration="666000" />
-      <workItem from="1697584038832" duration="3128000" />
+      <workItem from="1697582353306" duration="3501000" />
     </task>
-    <task id="LOCAL-00001" summary="Baylee mapAB4 Test completed">
-      <option name="closed" value="true" />
-      <created>1697586142596</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1697586142596</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Baylee firstSwap Test completed">
-      <option name="closed" value="true" />
-      <created>1697586979374</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1697586979374</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stuff" />
-    <MESSAGE value="Baylee mapAB4 Test completed" />
-    <MESSAGE value="Baylee firstSwap Test completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Baylee firstSwap Test completed" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="merging" />
+    <option name="LAST_COMMIT_MESSAGE" value="merging" />
   </component>
 </project>
