@@ -160,7 +160,7 @@ public class Map2 {
         return outStrings;
     }
 
-    public String[] firstSwap_jaredHutton(String[] strings) {
+    public static String[] firstSwap_jaredHutton(String[] strings) {
         Map<Character, Integer> map = new HashMap<>();
 
         for (int ix = 0; ix < strings.length; ++ix) {
