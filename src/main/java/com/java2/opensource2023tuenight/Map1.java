@@ -135,4 +135,15 @@ public class Map1 {
         return map;
     }
 
+    public static Map<String, String> mapShare_Nik(Map<String, String> map) {
+        map.remove("c");
+
+        if (map.get("a") != null && !map.get("a").equals(""))
+        {
+            map.put("b", map.get("a"));
+        }
+        return map;
+    }
+
+
 }

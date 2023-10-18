@@ -4,98 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="merging" />
+    <list default="true" id="8317de85-7537-4444-93e8-4a36a3897342" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/Map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/Map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/Map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/Map2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-    &quot;associatedIndex&quot;: 8
-    }</component>
-  <component name="ProjectId" id="2WciUGlGhKbrmeDKV2lABbHhaJS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2WHErVWgBOk6Nl8BDW0SIoq4Vxc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
-      <module name="empty-web-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hauschildt.emptywebapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.Test" />
-      <module name="empty-web-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hauschildt.emptywebapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.HelloServlet" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="" />
-      <created>1697038283134</created>
+      <changelist id="8317de85-7537-4444-93e8-4a36a3897342" name="Changes" comment="" />
+      <created>1696381306193</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1697038283134</updated>
-      <workItem from="1697038284109" duration="164000" />
-      <workItem from="1697038450736" duration="616000" />
-      <workItem from="1697039303362" duration="962000" />
+      <updated>1696381306193</updated>
+      <workItem from="1696381307605" duration="4000" />
+      <workItem from="1697587074568" duration="332000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="merging" />
-    <option name="LAST_COMMIT_MESSAGE" value="merging" />
   </component>
 </project>
