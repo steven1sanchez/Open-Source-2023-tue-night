@@ -17,6 +17,7 @@ public class Map2 {
         }
         return map;
     }
+
     public static Map<String, String> firstChar_Andres(String[] strings) {
         Map<String, String> map = new HashMap<>();
         for(String str: strings){
@@ -31,7 +32,6 @@ public class Map2 {
         }
         return map;
     }
-
 
     public static Map<String, String> pairs_jacobL(String[] strings) {
         Map<String, String> map = new HashMap<>();
@@ -183,7 +183,8 @@ public class Map2 {
         return strings;
     }
 
-    public static  String[] firstSwap_baylee(String[] strings) {
+
+    public static String[] firstSwap_baylee(String[] strings) {
         Map<String, String> map = new HashMap<>();
         Map<String, Integer> location = new HashMap<>();
         Map<String, Integer> count = new HashMap<>();
@@ -205,6 +206,15 @@ public class Map2 {
         return strings;
     }
 
+
+    public static Map<String, Integer> wordLen_jaredR(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+        for(String str: strings){
+            map.put(str, str.length());
+        }
+         return map;
+    }     
+      
     public static Map<String, String> firstChar_oleksiy(String[] strings) {
         Map<String, String> map = new HashMap<>();
         String chara;
@@ -228,7 +238,6 @@ public class Map2 {
         {
             map.put(strings[i], 0);
         }
-
         return map;
     }
 
