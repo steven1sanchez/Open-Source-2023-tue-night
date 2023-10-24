@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="merging">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_Marc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/java2/opensource2023tuenight/Map2Test_Oleksiy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_Alina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/java2/opensource2023tuenight/Map1Test_Alina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_Baylee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/java2/opensource2023tuenight/Map1Test_Baylee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_JacobL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/java2/opensource2023tuenight/Map1Test_JacobL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_JonathanBeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/java2/opensource2023tuenight/Map1Test_JonathanBeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_Marc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/java2/opensource2023tuenight/Map1Test_Marc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,31 +48,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "Caspian427-caspian-codingbat",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Caspian427-caspian-codingbat&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.java2.opensource2023tuenight" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.java2.opensource2023tuenight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="JUnit.Map2Test_Oleksiy.firstChar_oleksiy">
     <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
       <module name="empty-web-app" />
@@ -94,6 +102,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in Open-Source-2023-tue-night" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-tue-night" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Map1Test_Marc.mapAB_marc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Open-Source-2023-tue-night" />
       <extension name="coverage">
@@ -110,13 +126,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Map2Test_Oleksiy.firstChar_oleksiy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-tue-night" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java2.opensource2023tuenight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java2.opensource2023tuenight" />
+      <option name="MAIN_CLASS_NAME" value="com.java2.opensource2023tuenight.Map2Test_Oleksiy" />
+      <option name="METHOD_NAME" value="firstChar_oleksiy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Map2Test_Oleksiy.firstChar_oleksiy" />
+        <item itemvalue="JUnit.All in Open-Source-2023-tue-night" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.HelloServlet" />
         <item itemvalue="JUnit.Map1Test_Marc.mapAB_marc" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.HelloServlet" />
       </list>
     </recent_temporary>
   </component>
@@ -138,8 +170,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="merging" />
-    <option name="LAST_COMMIT_MESSAGE" value="merging" />
+    <MESSAGE value="Submitting Contribution 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Submitting Contribution 3" />
   </component>
 </project>
