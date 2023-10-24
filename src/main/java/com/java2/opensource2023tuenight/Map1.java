@@ -47,7 +47,7 @@ public class Map1 {
         return map;
     }
 
-    public Map<String, String> mapAB2_caspian(Map<String, String> map) {
+    public static Map<String, String> mapAB2_caspian(Map<String, String> map) {
         if(map.containsKey("a") && map.containsKey("b")) {
             if(map.get("a").equals(map.get("b"))) {
                 map.remove("a");

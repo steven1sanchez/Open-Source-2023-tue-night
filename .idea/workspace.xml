@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="merging">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_Marc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_Caspian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/Map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/Map1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,6 +33,14 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
     &quot;associatedIndex&quot;: 8
@@ -51,6 +61,8 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "Caspian427-caspian-codingbat",
+    "jdk.selected.JAVA_MODULE": "temurin-17",
+    "last_opened_file_path": "C:/Users/waemc/IdeaProjects/Open-Source-2023-tue-night",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,7 +79,7 @@
       <recent name="com.java2.opensource2023tuenight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="JUnit.Map1Test_Caspian">
     <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
       <module name="empty-web-app" />
@@ -94,6 +106,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Map1Test_Caspian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-tue-night" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java2.opensource2023tuenight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java2.opensource2023tuenight" />
+      <option name="MAIN_CLASS_NAME" value="com.java2.opensource2023tuenight.Map1Test_Caspian" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Map1Test_Marc.mapAB_marc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Open-Source-2023-tue-night" />
       <extension name="coverage">
@@ -112,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Map1Test_Caspian" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.HelloServlet" />
         <item itemvalue="JUnit.Map1Test_Marc.mapAB_marc" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.HelloServlet" />
       </list>
     </recent_temporary>
   </component>
