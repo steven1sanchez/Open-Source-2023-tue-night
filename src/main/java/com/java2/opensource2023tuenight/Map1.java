@@ -12,6 +12,20 @@ public class Map1 {
         return map;
     }
 
+    public static Map<String, String> mapAB4_baylee(Map<String, String> map) {
+        if (map.containsKey("a") && map.containsKey("b")) {
+            if (map.get("a").length() == map.get("b").length()){
+                map.put("a", "");
+                map.put("b", "");
+            } else if (map.get("a").length() >= map.get("b").length()) {
+                map.put("c", map.get("a"));
+            } else{
+                map.put("c", map.get("b"));
+            }
+        }
+        return map;
+    }              
+              
   public static Map<String, String> mapAB3_andres(Map<String, String> map){
         if(map.containsKey("a") && !map.containsKey("b")){
             map.put("b", map.get("a"));
@@ -110,7 +124,7 @@ public class Map1 {
         return map;
     }
 
-    public Map<String, String> topping2_jacobL(Map<String, String> map) {
+    public static Map<String, String> topping2_jacobL(Map<String, String> map) {
         if (map.containsKey("ice cream")){
             map.put("yogurt", map.get("ice cream"));
         }
@@ -120,5 +134,48 @@ public class Map1 {
         return map;
     }
 
+
+    public static Map<String, String> mapShare_Nik(Map<String, String> map) {
+        map.remove("c");
+
+        if (map.get("a") != null && !map.get("a").equals(""))
+        {
+            map.put("b", map.get("a"));
+        }
+        return map;
+    }
+          
+          
+
+    public static Map<String, String> topping2_jaredR(Map<String, String> map) {
+        if(map.containsKey("ice cream")){
+            map.put("yogurt", map.get("ice cream"));
+        }
+        if(map.containsKey("spinach")){
+            map.put("spinach", "nuts");
+        }
+          return map;
+    }    
+      
+    public static Map<String, String> topping1_oleksiy(Map<String, String> map) {
+        map.put("bread", "butter");
+        if(map.containsKey("ice cream")){
+            map.put("ice cream", "cherry");
+        }
+        return map;
+    }
+
+
+    public static Map<String, String> topping1_mads(Map<String, String> map) {
+
+        if(map.containsKey("ice cream"))
+        {
+            map.put("ice cream", "cherry");
+        }
+
+        map.put("bread", "butter");
+
+        return map;
+    }
 
 }
