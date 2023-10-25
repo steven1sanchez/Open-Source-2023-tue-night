@@ -166,7 +166,7 @@ public class Map1 {
         return map;
     }
 
-    public Map<String, String> mapAB4_sagan(Map<String, String> map) {
+    public static Map<String, String> mapAB4_sagan(Map<String, String> map) {
         String a = map.get("a");
         String b = map.get("b");
         if(a == null || b == null) {

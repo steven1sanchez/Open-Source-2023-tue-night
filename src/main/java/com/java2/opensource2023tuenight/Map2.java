@@ -241,7 +241,7 @@ public class Map2 {
         return map;
     }
 
-    public Map<String, Boolean> wordMultiple_sagan(String[] strings) {
+    public static Map<String, Boolean> wordMultiple_sagan(String[] strings) {
         Map<String, Boolean> map2 = new HashMap<>();
         Map<String, Integer> map = new HashMap<>();
         for(String str: strings) {
