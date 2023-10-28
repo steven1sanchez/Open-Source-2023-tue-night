@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="merging">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_Nik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/java2/opensource2023tuenight/Map1Test_Alina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_Alina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/java2/opensource2023tuenight/Map1Test_Baylee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_Baylee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/java2/opensource2023tuenight/Map1Test_JacobL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_JacobL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/java2/opensource2023tuenight/Map1Test_JonathanBeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_JonathanBeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/java2/opensource2023tuenight/Map1Test_Marc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_Marc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/java2/opensource2023tuenight/Map1Test_Oleksiy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_Oleksiy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +67,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\k0519415\OneDrive - kirkwood.edu\Kirkwood\Projects\JavaProjects\Open-Source-2023-tue-night\src\test\java\com\java2\opensource2023tuenight" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.java2.opensource2023tuenight" />
     </key>
@@ -69,7 +77,7 @@
       <recent name="com.java2.opensource2023tuenight" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.java in Open-Source-2023-tue-night">
+  <component name="RunManager" selected="JUnit.opensource2023tuenight in Open-Source-2023-tue-night">
     <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
       <module name="empty-web-app" />
@@ -120,13 +128,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="opensource2023tuenight in Open-Source-2023-tue-night" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-tue-night" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.opensource2023tuenight in Open-Source-2023-tue-night" />
         <item itemvalue="JUnit.java in Open-Source-2023-tue-night" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.HelloServlet" />
         <item itemvalue="JUnit.Map1Test_Marc.mapAB_marc" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
