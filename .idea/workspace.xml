@@ -44,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="marc-map1-test" />
+        <entry key="$PROJECT_DIR$" value="steven's-calculator" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -166,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.java in Open-Source-2023-tue-night" />
         <item itemvalue="JUnit.opensource2023tuenight in Open-Source-2023-tue-night" />
+        <item itemvalue="JUnit.Map1Test_Marc.mapAB_marc" />
+        <item itemvalue="JUnit.java in Open-Source-2023-tue-night" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.HelloServlet" />
-        <item itemvalue="JUnit.Map1Test_Marc.mapAB_marc" />
       </list>
     </recent_temporary>
   </component>
@@ -199,8 +199,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="merging" />
-    <option name="LAST_COMMIT_MESSAGE" value="merging" />
+    <MESSAGE value="commit map2Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit map2Test" />
   </component>
 </project>
