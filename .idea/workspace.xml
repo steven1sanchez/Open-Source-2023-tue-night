@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="merging" />
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="merging">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map2Test_JaredHutton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classpath.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/classpath.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +64,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.java2.opensource2023tuenight" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.java2.opensource2023tuenight" />
