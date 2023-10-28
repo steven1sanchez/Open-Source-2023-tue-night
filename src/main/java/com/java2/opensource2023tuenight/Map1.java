@@ -178,4 +178,23 @@ public class Map1 {
         return map;
     }
 
+    public static Map<String, String> mapAB4_sagan(Map<String, String> map) {
+        String a = map.get("a");
+        String b = map.get("b");
+        if(a == null || b == null) {
+            return map;
+        }
+
+        int difference = a.length() - b.length();
+        if(difference > 0) {
+            map.put("c", a);
+        } else if(difference < 0) {
+            map.put("c", b);
+        } else {
+            map.put("a", "");
+            map.put("b", "");
+        }
+        return map;
+    }
+
 }
