@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="merging">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/java2/opensource2023tuenight/Map1Test_Caspian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/Map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/Map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classpath.index" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +31,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
     &quot;associatedIndex&quot;: 8
     }</component>
@@ -53,33 +42,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "Caspian427-caspian-codingbat",
-    "jdk.selected.JAVA_MODULE": "temurin-17",
-    "last_opened_file_path": "C:/Users/waemc/IdeaProjects/Open-Source-2023-tue-night",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.java2.opensource2023tuenight" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.java2.opensource2023tuenight" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Map1Test_Caspian">
+  <component name="RunManager" selected="JUnit.java in Open-Source-2023-tue-night">
     <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
       <module name="empty-web-app" />
@@ -106,21 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Map1Test_Caspian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Open-Source-2023-tue-night" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java2.opensource2023tuenight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.java2.opensource2023tuenight" />
-      <option name="MAIN_CLASS_NAME" value="com.java2.opensource2023tuenight.Map1Test_Caspian" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Map1Test_Marc.mapAB_marc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Open-Source-2023-tue-night" />
       <extension name="coverage">
@@ -137,9 +112,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java in Open-Source-2023-tue-night" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-tue-night" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Map1Test_Caspian" />
+        <item itemvalue="JUnit.java in Open-Source-2023-tue-night" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.HelloServlet" />
         <item itemvalue="JUnit.Map1Test_Marc.mapAB_marc" />
@@ -158,7 +141,11 @@
       <workItem from="1697038284109" duration="164000" />
       <workItem from="1697038450736" duration="616000" />
       <workItem from="1697039303362" duration="962000" />
-      <workItem from="1697582353306" duration="3501000" />
+      <workItem from="1697582353306" duration="5414000" />
+      <workItem from="1697692921224" duration="598000" />
+      <workItem from="1698197676960" duration="543000" />
+      <workItem from="1698503292020" duration="960000" />
+      <workItem from="1698508593869" duration="648000" />
     </task>
     <servers />
   </component>
