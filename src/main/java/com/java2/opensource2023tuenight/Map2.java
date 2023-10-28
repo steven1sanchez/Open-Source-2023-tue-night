@@ -17,6 +17,7 @@ public class Map2 {
         }
         return map;
     }
+
     public static Map<String, String> firstChar_Andres(String[] strings) {
         Map<String, String> map = new HashMap<>();
         for(String str: strings){
@@ -31,7 +32,6 @@ public class Map2 {
         }
         return map;
     }
-
 
     public static Map<String, String> pairs_jacobL(String[] strings) {
         Map<String, String> map = new HashMap<>();
@@ -183,7 +183,8 @@ public class Map2 {
         return strings;
     }
 
-    public static  String[] firstSwap_baylee(String[] strings) {
+
+    public static String[] firstSwap_baylee(String[] strings) {
         Map<String, String> map = new HashMap<>();
         Map<String, Integer> location = new HashMap<>();
         Map<String, Integer> count = new HashMap<>();
@@ -203,6 +204,53 @@ public class Map2 {
             }
         }
         return strings;
+    }
+
+    public static Map<String, String> firstChar_Nik(String[] strings) {
+        Map<String, String> map = new HashMap();
+        for (String s:strings) {
+            String first = String.valueOf(s.charAt(0));
+
+            //If this is the first time the letter is found in the list, add it.
+            if (map.get(first) == null) { map.put(first, ""); }
+            map.put(first, map.get(first) + s);
+        }
+
+        return map;
+    }
+
+    public static Map<String, Integer> wordLen_jaredR(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+        for(String str: strings){
+            map.put(str, str.length());
+        }
+         return map;
+    }     
+      
+    public static Map<String, String> firstChar_oleksiy(String[] strings) {
+        Map<String, String> map = new HashMap<>();
+        String chara;
+        for(String string : strings){
+            chara = string.substring(0, 1);
+            if(!map.containsKey(chara)){
+                map.put(chara, string);
+            }
+            else{
+                map.put(chara, map.get(chara) + string);
+            }
+        }
+
+        return map;
+    }
+          
+    public static Map<String, Integer> word0_mads(String[] strings) {
+        Map<String, Integer> map = new HashMap<String, Integer>();
+
+        for(int i = 0; i < strings.length; i++)
+        {
+            map.put(strings[i], 0);
+        }
+        return map;
     }
 
 }
