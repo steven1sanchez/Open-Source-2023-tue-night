@@ -7,6 +7,6 @@
 <body>
 <h1>Java 2 Kirkwood Tuesday Night Calculators</h1>
 <br/>
-<a href="your-servlet">Your Name</a>
+<a href="alina-convert-distance">Alina's Distance Converter</a>
 </body>
 </html>
