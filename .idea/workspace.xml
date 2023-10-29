@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="merging">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikus/JonathanB.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikus/Steven.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikus/alina.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikus/baylee.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikus/caspian.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikus/isabella.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikus/jacobW.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikus/jaredR.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikus/kirsten.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikus/mads.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikus/marc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikus/nathan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikus/nik.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +38,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
     &quot;associatedIndex&quot;: 8
     }</component>
@@ -86,6 +68,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -193,7 +176,20 @@
       <workItem from="1698513201735" duration="578000" />
       <workItem from="1698513798977" duration="758000" />
       <workItem from="1698514560115" duration="309000" />
+      <workItem from="1698535462314" duration="1056000" />
+      <workItem from="1698537207760" duration="1114000" />
+      <workItem from="1698538337590" duration="391000" />
+      <workItem from="1698601571371" duration="47000" />
     </task>
+    <task id="LOCAL-00001" summary="committing any changes">
+      <option name="closed" value="true" />
+      <created>1698535585734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698535585734</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +209,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="merging" />
     <MESSAGE value="commit map2Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit map2Test" />
+    <MESSAGE value="committing any changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="committing any changes" />
   </component>
 </project>
