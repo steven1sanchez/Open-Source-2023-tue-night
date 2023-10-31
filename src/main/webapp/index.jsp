@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>JSP - Kirsten's Calculator</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "Measurement Conversion Calculator" %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href="kirstens-calculator">Kirsten's Calculator</a>
 </body>
 </html>
