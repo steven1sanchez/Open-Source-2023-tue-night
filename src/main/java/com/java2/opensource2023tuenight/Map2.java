@@ -206,6 +206,18 @@ public class Map2 {
         return strings;
     }
 
+    public static Map<String, String> firstChar_Nik(String[] strings) {
+        Map<String, String> map = new HashMap();
+        for (String s:strings) {
+            String first = String.valueOf(s.charAt(0));
+
+            //If this is the first time the letter is found in the list, add it.
+            if (map.get(first) == null) { map.put(first, ""); }
+            map.put(first, map.get(first) + s);
+        }
+
+        return map;
+    }
 
     public static Map<String, Integer> wordLen_jaredR(String[] strings) {
         Map<String, Integer> map = new HashMap<>();
@@ -239,6 +251,26 @@ public class Map2 {
             map.put(strings[i], 0);
         }
         return map;
+    }
+
+    public static Map<String, Boolean> wordMultiple_sagan(String[] strings) {
+        Map<String, Boolean> map2 = new HashMap<>();
+        Map<String, Integer> map = new HashMap<>();
+        for(String str: strings) {
+            if(map.containsKey(str)) {
+                map.put(str, map.get(str) + 1);
+            } else {
+                map.put(str, 1);
+            }
+        }
+        map.forEach((str, num) -> {
+            if(num >= 2) {
+                map2.put(str, true);
+            } else {
+                map2.put(str, false);
+            }
+        });
+        return map2;
     }
 
 }
