@@ -19,5 +19,6 @@
 <a href="baylee-calculator">Baylee's Calculator</a>
 <br><a href="sagan-converter">Sagan's Imperial Converter</a>
 <br/><a href="isabella-rgb-hex">Isabella's RGB & Hex Converter</a>
+<br/><a href="convert-money">Jonathan's Annuity Calculator</a>
 </body>
 </html>
