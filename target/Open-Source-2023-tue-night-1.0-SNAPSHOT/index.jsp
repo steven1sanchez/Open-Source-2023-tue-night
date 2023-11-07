@@ -6,7 +6,6 @@
 </head>
 <body>
 <h1>Java 2 Kirkwood Tuesday Night Calculators</h1>
-<br/>
-<a href="your-servlet">Your Name</a>
+<a href="distance">Steven Sanchez</a>
 </body>
 </html>
