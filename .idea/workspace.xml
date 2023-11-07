@@ -9,12 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Made class static, applied unit test for Map2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/JacobLServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jacobLCalculator.jsp" afterDir="false" />
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Created Seconds Conversion Calc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/JacobLServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/JacobLServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jacobLCalculator.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jacobLCalculator.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +255,9 @@
       <workItem from="1697038284109" duration="164000" />
       <workItem from="1697038450736" duration="616000" />
       <workItem from="1697039303362" duration="962000" />
-      <workItem from="1698703780609" duration="4568000" />
+      <workItem from="1698703780609" duration="5073000" />
+      <workItem from="1699294678903" duration="17000" />
+      <workItem from="1699379226228" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="Made class static, applied unit test">
       <option name="closed" value="true" />
@@ -275,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697587028463</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created Seconds Conversion Calc">
+      <option name="closed" value="true" />
+      <created>1698708441529</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698708441529</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +304,8 @@
     <MESSAGE value="merging" />
     <MESSAGE value="Made class static, applied unit test" />
     <MESSAGE value="Made class static, applied unit test for Map2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made class static, applied unit test for Map2" />
+    <MESSAGE value="Created Seconds Conversion Calc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Seconds Conversion Calc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
