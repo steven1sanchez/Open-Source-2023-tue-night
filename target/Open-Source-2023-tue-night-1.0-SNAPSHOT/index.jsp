@@ -14,6 +14,8 @@
 <br/>
 <a href="kirstens-calculator">Kirsten's Calculator</a>
 <br/>
-<a href="nathan-calculator">Natan's Calculator</a>
+<a href="nathan-calculator">Nathan's Calculator</a>
+<br/>
+<a href="baylee-calculator">Baylee's Calculator</a>
 </body>
 </html>
