@@ -10,10 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="merging">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/Isabella_RGB_Hex_Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/isabella-rgb-hex.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Open-Source-2023-tue-night-1.0-SNAPSHOT/WEB-INF/classes/com/java2/opensource2023tuenight/Isabella_RGB_Hex_Converter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/java2/opensource2023tuenight/Isabella_RGB_Hex_Converter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Open-Source-2023-tue-night-1.0-SNAPSHOT/WEB-INF/classes/classpath.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Open-Source-2023-tue-night-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Open-Source-2023-tue-night-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classpath.index" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +273,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="" />
@@ -288,12 +292,11 @@
       <workItem from="1698513798977" duration="758000" />
       <workItem from="1698514560115" duration="309000" />
       <workItem from="1698514873353" duration="198000" />
-      <workItem from="1698595384628" duration="295000" />
+      <workItem from="1698595384628" duration="986000" />
+      <workItem from="1698702325678" duration="22000" />
+      <workItem from="1699322223447" duration="770000" />
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="merging" />
