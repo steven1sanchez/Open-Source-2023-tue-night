@@ -11,6 +11,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="merging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/JacobLServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java2/opensource2023tuenight/JacobLServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jacobLCalculator.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jacobLCalculator.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Open-Source-2023-tue-night-1.0-SNAPSHOT/WEB-INF/classes/com/java2/opensource2023tuenight/JacobLServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Open-Source-2023-tue-night-1.0-SNAPSHOT/WEB-INF/classes/com/java2/opensource2023tuenight/JacobLServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Open-Source-2023-tue-night-1.0-SNAPSHOT/WEB-INF/jacobLCalculator.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Open-Source-2023-tue-night-1.0-SNAPSHOT/WEB-INF/jacobLCalculator.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java2/opensource2023tuenight/JacobLServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java2/opensource2023tuenight/JacobLServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
