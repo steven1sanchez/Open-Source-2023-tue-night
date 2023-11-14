@@ -16,12 +16,15 @@
         <form method="POST" action="jlCalc">
             <select name="secConvert" class="form-select" aria-label="Select a Conversion">
                 <option>Select Conversion</option>
-                <option ${results.secConvert == 'min' ? 'selected' : ''} value="min">Minutes</option>
-                <option ${results.secConvert == 'hour' ? 'selected' : ''} value="hour">Hours</option>
-                <option ${results.secConvert == 'day' ? 'selected' : ''} value="day">Days</option>
+                <option ${results.secConvert == 'min' ? 'selected' : ''} value="secToMin">Seconds to Minutes</option>
+                <option ${results.secConvert == 'hour' ? 'selected' : ''} value="secToHour">Seconds to Hours</option>
+                <option ${results.secConvert == 'day' ? 'selected' : ''} value="secToDay">Seconds to Days</option>
+                <option ${results.secConvert == 'min' ? 'selected' : ''} value="minToSec">Minutes to Seconds</option>
+                <option ${results.secConvert == 'hour' ? 'selected' : ''} value="hourToSec">Hours to Seconds</option>
+                <option ${results.secConvert == 'day' ? 'selected' : ''} value="dayToSec">Days to Seconds</option>
             </select>
 
-            <label for="seconds">Seconds:</label>
+            <label for="seconds">Number to Convert:</label>
             <input value="<c:out value="${results.seconds}" />" type="text" class="form-control"
                    id="seconds" name="seconds">
 

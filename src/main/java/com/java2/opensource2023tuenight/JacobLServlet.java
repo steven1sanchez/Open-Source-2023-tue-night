@@ -33,9 +33,9 @@ public class JacobLServlet extends HttpServlet {
         req.getRequestDispatcher("WEB-INF/jacobLCalculator.jsp").forward(req, resp);
     }
 
-    private void convertSeconds(String conversion, String seconds){
+    private void convertSeconds(String conversion, String numConvert){
         // Validate if number
-        if (!isANumber(seconds)){
+        if (!isANumber(numConvert)){
             results.put("secondsError", "Please enter a valid input for Seconds");
         }
 
@@ -45,17 +45,29 @@ public class JacobLServlet extends HttpServlet {
         }
 
         if (!results.containsKey("conversionError") && !results.containsKey("secondsError")){
-            if (conversion.equals("min")){
-                double minutes = Double.parseDouble(seconds) / 60;
-                results.put("secConverted", String.format("%s seconds is %s minutes.", seconds, minutes));
+            if (conversion.equals("secToMin")){
+                double minutes = Double.parseDouble(numConvert) / 60;
+                results.put("secConverted", String.format("%s seconds is %s minutes.", numConvert, minutes));
             }
-            if (conversion.equals("hour")){
-                double hours = Double.parseDouble(seconds) / 3600;
-                results.put("secConverted", String.format("%s seconds is %s hours.", seconds, hours));
+            if (conversion.equals("secToHour")){
+                double hours = Double.parseDouble(numConvert) / 3600;
+                results.put("secConverted", String.format("%s seconds is %s hours.", numConvert, hours));
             }
-            if (conversion.equals("day")){
-                double days = Double.parseDouble(seconds) / 86400;
-                results.put("secConverted", String.format("%s seconds is %s days.", seconds, days));
+            if (conversion.equals("secToDay")){
+                double days = Double.parseDouble(numConvert) / 86400;
+                results.put("secConverted", String.format("%s seconds is %s days.", numConvert, days));
+            }
+            if (conversion.equals("minToSec")){
+                double minutes = Double.parseDouble(numConvert) * 60;
+                results.put("secConverted", String.format("%s minute(s) is %s seconds.", numConvert, minutes));
+            }
+            if (conversion.equals("hourToSec")){
+                double hours = Double.parseDouble(numConvert) * 3600;
+                results.put("secConverted", String.format("%s hour(s) is %s seconds.", numConvert, hours));
+            }
+            if (conversion.equals("dayToSec")){
+                double days = Double.parseDouble(numConvert) * 86400;
+                results.put("secConverted", String.format("%s day(s) is %s seconds.", numConvert, days));
             }
             results.put("secConvert", conversion);
         }
