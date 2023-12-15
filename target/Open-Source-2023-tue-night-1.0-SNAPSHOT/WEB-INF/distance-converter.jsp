@@ -21,8 +21,8 @@
           <option>Select which measurements you wish to convert</option>
           <option ${results.conversion == 'm-km' ? 'selected' : ''} value="m-km">Meters to Kilometers</option>
           <option ${results.conversion == 'm-mi' ? 'selected' : ''} value="m-mi">Meters to Miles</option>
-          <option ${results.conversion == 'km-m' ? 'selected' : ''} value="yr">Kilometers to Meters</option>
-          <option ${results.conversion == 'km-mi' ? 'selected' : ''} value="km-m">Kilometers to Miles</option>
+          <option ${results.conversion == 'km-m' ? 'selected' : ''} value="km-m">Kilometers to Meters</option>
+          <option ${results.conversion == 'km-mi' ? 'selected' : ''} value="km-mi">Kilometers to Miles</option>
           <option ${results.conversion == 'mi-m' ? 'selected' : ''} value="mi-m">Miles to Meters</option>
           <option ${results.conversion == 'mi-km' ? 'selected' : ''} value="mi-km">Miles to Kilometers</option>
         </select>
