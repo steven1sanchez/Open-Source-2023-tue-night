@@ -22,5 +22,6 @@
 <br/><a href="convertdistance">Nik's Distance converter</a>
 <br/><a href="convert-money">Jonathan's Annuity Calculator</a>
 <br><a href="convert-liquids-caspian">Caspian</a>
+<a href="convert-distance">Nik's Distance Calculator</a>
 </body>
 </html>

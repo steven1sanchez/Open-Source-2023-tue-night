@@ -6,6 +6,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+import java.text.DecimalFormat;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -40,31 +41,42 @@ public class ConvertDistance extends HttpServlet {
             results.put("distanceError", "Please input a valid distance");
         }
         if (!results.containsKey("conversionError") && !results.containsKey("distanceError")) {
-            double distanceD = Double.parseDouble(distance);
+            double parsedDistance = Double.parseDouble(distance);
+            double conversionResult;
             switch (conversion) {
                 case "m-km":
-                    results.put("distanceConverted", String.format("%s meters is %s kilometers", distanceD,
-                            distanceD * 1000));
+                    conversionResult = roundToDecimalPlaces((parsedDistance / 1000), 2);
+                    results.put("distanceConverted", formatDouble(parsedDistance) + " meters is " +
+                            formatDouble(conversionResult) + " kilometers");
                     break;
                 case "m-mi":
-                    results.put("distanceConverted", String.format("%s meters is %s miles", distanceD,
-                            kilometersToMiles(distanceD * 1000)));
+                    conversionResult = roundToDecimalPlaces((kilometersToMiles(parsedDistance / 1000)),
+                            2);
+                    results.put("distanceConverted", formatDouble(parsedDistance) + " meters is " +
+                            formatDouble(conversionResult) + " miles");
                     break;
                 case "km-m":
-                    results.put("distanceConverted", String.format("%s kilometers is %s meters", distanceD,
-                            (distanceD / 1000)));
+                    conversionResult = roundToDecimalPlaces((parsedDistance * 1000), 2);
+                    results.put("distanceConverted", formatDouble(parsedDistance) + " kilometers is " +
+                            formatDouble(conversionResult) + " meters");
                     break;
                 case "km-mi":
-                    results.put("distanceConverted", String.format("%s kilometers is %s miles", distanceD,
-                            kilometersToMiles(distanceD)));
+                    conversionResult = roundToDecimalPlaces(kilometersToMiles(parsedDistance),
+                            2);
+                    results.put("distanceConverted", formatDouble(parsedDistance) + " kilometers is " +
+                            formatDouble(conversionResult) + " miles");
                     break;
                 case "mi-m":
-                    results.put("distanceConverted", String.format("%s miles is %s meters", distanceD,
-                            (milesToKilometers(distanceD) / 1000)));
+                    conversionResult = roundToDecimalPlaces(milesToKilometers(parsedDistance) *1000,
+                            2);
+                    results.put("distanceConverted", formatDouble(parsedDistance) + " miles is " +
+                            formatDouble(conversionResult) + " meters");
                     break;
                 case "mi-km":
-                    results.put("distanceConverted", String.format("%s miles is %s kilometers", distanceD,
-                            milesToKilometers(distanceD)));
+                    conversionResult = roundToDecimalPlaces(milesToKilometers(parsedDistance),
+                            2);
+                    results.put("distanceConverted", formatDouble(parsedDistance) + " miles is " +
+                            formatDouble(conversionResult) + " kilometers");
                     break;
             }
         }
@@ -78,6 +90,11 @@ public class ConvertDistance extends HttpServlet {
         }
 
         return result;
+    }
+
+    private static double roundToDecimalPlaces(double number, int decimalPlace) {
+        number = Math.round(number * Math.pow(10, decimalPlace));
+        return number / Math.pow(10, decimalPlace);
     }
 
     private static double kilometersToMiles(double kilometers) {
@@ -95,6 +112,11 @@ public class ConvertDistance extends HttpServlet {
         } catch (NumberFormatException e) {
             return false;
         }
+    }
+
+    private static String formatDouble(double number) {
+        DecimalFormat decimalFormat = new DecimalFormat("#,###.##");
+        return decimalFormat.format(number);
     }
 }
 
